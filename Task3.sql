@@ -15,6 +15,6 @@ SELECT title FROM film
 WHERE title ILIKE '%t%t%t%t%';
 
 
---Forth query
+--Fourth query
 SELECT * FROM film
 WHERE (title LIKE 'C%') AND (length>90) AND (rental_rate=2.99);

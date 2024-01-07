@@ -12,7 +12,7 @@ SELECT COUNT(*) FROM film
 WHERE (title LIKE 'T%') AND (rating='G');
 
 
---Forth query
+--Fourth query
 SELECT COUNT(*) FROM country
 WHERE country LIKE '_____';
 

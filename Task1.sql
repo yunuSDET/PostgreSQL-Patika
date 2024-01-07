@@ -12,7 +12,7 @@ WHERE length>60 and length<75;
 SELECT * FROM film
 WHERE rental_rate=0.99 AND (replacement_cost=12.99 OR replacement_cost=28.99);
 
---Forth query
+--Fourth query
 SELECT last_name FROM customer
 WHERE first_name='Mary';
 
