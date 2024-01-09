@@ -17,7 +17,10 @@ SELECT last_name FROM customer
 WHERE first_name='Mary';
 
 
+
 --Fifth query
 SELECT * FROM film
 WHERE  (not length>50) AND (rental_rate!=2.99 OR rental_rate=4.99);
+
+
 
